@@ -49,7 +49,7 @@
 
 ## 另
 - 针对目标检测的数据增强，数据预处理等相关脚本见：[Data_Preprocess_For_CV](https://github.com/maozezhong/Data_Preprocess_For_CV)
-- part2部分为队友用pytorch，finetune resnet152, 在线镜像增强，输入resize到800， 训练得到。
+- part2部分为队友用pytorch，finetune resnet152, 在线镜像增强，输入resize到800，原始数据，训练得到。
 - 本次上传的代码不包括队友的部分
 - 如果想达到949的精确度，可以在main.py代码里面将模型改为resnet152再训练一个模型，融合一下
 - 感觉再多训练几个模型融合线上还能提高 = =
