@@ -17,7 +17,7 @@
 
 ## 操作说明
 - step1 : 手动解压原始数据压缩文件，得保证解压后的文件名没有乱码！！！！！！！
-- step2 : **手动在keras源码中修改插值方式**：
+- step2 : **手动在keras源码中修改插值方式,keras默认插值resize会出现波纹**：
     - 在~/anaconda2/lib/python2.7/site-packages/keras_preprocessing/imge.py的第33行后面加入 'antialias': pil_image.ANTIALIAS
     - 变成：
         '''
