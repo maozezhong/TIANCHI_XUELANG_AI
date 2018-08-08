@@ -10,7 +10,6 @@
     - DataAugmentForTrain.py : 对训练数据进行线下增强
     - DataAugmentForValid.py ： 将增强后的数据作为validation
     - del_copy_for_train.py ： 讲增强后的数据及原始数据全都copy到data_for_train文件夹中用于训练
-    - xuelangzsp.py ： 用pytorch训练另外一个模型(队友部分)
     - merge.py : 融合最终的多个结果
 - data : 存放原始数据文件，[官方数据下载地址](https://tianchi.aliyun.com/competition/information.htm?spm=5176.11165261.5678.2.164f419dba7Pjd&raceId=231666)
 - submit : 存放提交文件
@@ -40,7 +39,7 @@
 - part2部分：
     - 数据增强：只有线上，使用pytorch内置的增强方式
     - 模型：resnet152
-- 3个densenet模型融合线上能达到93.8%左右
+- 单模92左右，3个densenet模型融合线上能达到93.8%左右
 - 比赛最终用的是3个densenet和1个resnet(队友pytorch训练)出来的结果进行融合，达到了**线上94.9%,9/2403**的成绩
 - **注意，模型初始化用的是imagenet预训练权值，在开始模型训练前会自行下载**
 
