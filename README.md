@@ -52,4 +52,4 @@
 - 本次上传的代码不包括队友的部分
 - 如果想达到949的精确度，可以在main.py代码里面将模型改为resnet152再训练一个模型，融合一下
 - 感觉再多训练几个模型融合线上还能提高 = =
-
+- [复赛代码（已更新）](https://github.com/maozezhong/TIANCHI_XUELANG_AI_2)
