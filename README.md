@@ -49,7 +49,10 @@
 ## 另
 - 针对目标检测的数据增强，数据预处理等相关脚本见：[Data_Preprocess_For_CV](https://github.com/maozezhong/Data_Preprocess_For_CV)
 - part2部分为队友用pytorch，finetune resnet152, 在线镜像增强，输入resize到800，原始数据，训练得到。
-- 本次上传的代码不包括队友的部分
+- 上传代码未包括队友的部分
 - 如果想达到949的精确度，可以在main.py代码里面将模型改为resnet152再训练一个模型，融合一下
 - 感觉再多训练几个模型融合线上还能提高 = =
 - [复赛代码（已更新）](https://github.com/maozezhong/TIANCHI_XUELANG_AI_2)
+- [初赛part1](https://pan.baidu.com/s/1KoZcXKCCaWLWfGc5Q4gCjg), 密码: 2qdn
+- [初赛part2](https://pan.baidu.com/s/1c0o7WKm-ETPcIyF6JPS3Wg),  密码: jq9a
+- [复赛](https://pan.baidu.com/s/1wuA0VT7E7SBtkrvarfPCcw), 密码: vyj9
