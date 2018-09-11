@@ -53,6 +53,7 @@
 - 如果想达到949的精确度，可以在main.py代码里面将模型改为resnet152再训练一个模型，融合一下
 - 感觉再多训练几个模型融合线上还能提高 = =
 - [复赛代码（已更新）](https://github.com/maozezhong/TIANCHI_XUELANG_AI_2)
-- [初赛part1](https://pan.baidu.com/s/1KoZcXKCCaWLWfGc5Q4gCjg), 密码: 2qdn
-- [初赛part2](https://pan.baidu.com/s/1c0o7WKm-ETPcIyF6JPS3Wg),  密码: jq9a
-- [复赛](https://pan.baidu.com/s/1wuA0VT7E7SBtkrvarfPCcw), 密码: vyj9
+- 比赛数据
+	- [初赛part1](https://pan.baidu.com/s/1KoZcXKCCaWLWfGc5Q4gCjg), 密码: 2qdn
+	- [初赛part2](https://pan.baidu.com/s/1c0o7WKm-ETPcIyF6JPS3Wg),  密码: jq9a
+	- [复赛](https://pan.baidu.com/s/1wuA0VT7E7SBtkrvarfPCcw), 密码: vyj9
