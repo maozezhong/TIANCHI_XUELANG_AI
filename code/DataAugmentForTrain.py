@@ -379,7 +379,7 @@ class DataAugmentForObjectDetection():
                 change_num += 1
                 img, bboxes = self._crop_img_bboxes(img, bboxes)
             
-            # if random.random() > self.rotation_rate:    #旋转
+            # if random.random() < self.rotation_rate:    #旋转
             #     print('旋转')
             #     change_num += 1
             #     # angle = random.uniform(-self.max_rotation_angle, self.max_rotation_angle)
@@ -392,7 +392,7 @@ class DataAugmentForObjectDetection():
             #     change_num += 1
             #     img, bboxes = self._shift_pic_bboxes(img, bboxes)
             
-            if random.random() > self.change_light_rate: #改变亮度
+            if random.random() < self.change_light_rate: #改变亮度
                 # print('亮度')
                 change_num += 1
                 img = self._changeLight(img)
